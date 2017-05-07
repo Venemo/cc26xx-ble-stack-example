@@ -47,6 +47,26 @@
 									<listOptionValue builtIn="false" value="&quot;${CC26XXWARE}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/rom&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/icall/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/common/cc26xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/heapmgr&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/controller/cc26xx/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/hal/src/target/_common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/hal/src/target/_common/cc26xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/hal/src/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/osal/src/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/services/src/sdata&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/services/src/saddr&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/icall/src/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/components/npi/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/profiles/roles&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/profiles/roles/cc26xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/profiles/dev_info&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/profiles/simple_profile&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/examples/simple_peripheral/cc26xx/app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BLESTACK_SRC}/boards/CC2650DK_7ID&quot;"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compilerID.LITTLE_ENDIAN.753458124" name="Little endian code [See 'General' page to edit] (--little_endian, -me)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compilerID.LITTLE_ENDIAN" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compilerID.DEFINE.1680528308" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compilerID.DEFINE" valueType="definedSymbols">
@@ -54,6 +74,18 @@
 									<listOptionValue builtIn="false" value="ICALL_STACK0_ADDR=0xf001"/>
 									<listOptionValue builtIn="false" value="ICALL_STACK0_START=0xf000"/>
 									<listOptionValue builtIn="false" value="ICALL_RAM0_START=0x20004348"/>
+									<listOptionValue builtIn="false" value="CC2650DK_7ID"/>
+									<listOptionValue builtIn="false" value="CC26XX"/>
+									<listOptionValue builtIn="false" value="BOARD_DISPLAY_EXCLUDE_UART"/>
+									<listOptionValue builtIn="false" value="HEAPMGR_SIZE=0"/>
+									<listOptionValue builtIn="false" value="ICALL_MAX_NUM_ENTITIES=6"/>
+									<listOptionValue builtIn="false" value="ICALL_MAX_NUM_TASKS=3"/>
+									<listOptionValue builtIn="false" value="POWER_SAVING"/>
+									<listOptionValue builtIn="false" value="USE_ICALL"/>
+									<listOptionValue builtIn="false" value="xBOARD_DISPLAY_EXCLUDE_LCD"/>
+									<listOptionValue builtIn="false" value="xDisplay_DISABLE_ALL"/>
+									<listOptionValue builtIn="false" value="xdc_runtime_Assert_DISABLE_ALL"/>
+									<listOptionValue builtIn="false" value="xdc_runtime_Log_DISABLE_ALL"/>
 								</option>
 								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compiler.inputType__C_SRCS.87353062" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compiler.inputType__C_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compiler.inputType__CPP_SRCS.1413011183" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_16.9.compiler.inputType__CPP_SRCS"/>
