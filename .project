@@ -25,4 +25,10 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>CC26XXWARE</name>
+			<value>$%7BPARENT-1-CCS_INSTALL_ROOT%7D/tirtos_cc13xx_cc26xx_2_20_01_08/products/cc26xxware_2_24_02_17393</value>
+		</variable>
+	</variableList>
 </projectDescription>

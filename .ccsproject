@@ -12,4 +12,5 @@
 	<createSlaveProjects value=""/>
 	<templateProperties value="id=org.eclipse.rtsc.project.templates.EmptyRtscApplication,buildProfile=release,isHybrid=true,"/>
 	<filesToOpen value=""/>
+	<isTargetManual value="false"/>
 </projectOptions>
