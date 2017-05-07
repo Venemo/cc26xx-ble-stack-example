@@ -53,6 +53,7 @@
 #include <ti/drivers/Power.h>
 #include <ti/drivers/power/PowerCC26XX.h>
 #include <ti/sysbios/BIOS.h>
+#include <ti/drivers/PIN.h>
 
 #include "icall.h"
 #include "hal_assert.h"
@@ -63,6 +64,7 @@
 /* Header files required to enable instruction fetch cache */
 #include <inc/hw_memmap.h>
 #include <driverlib/vims.h>
+#include <driverlib/ioc.h>
 
 #ifndef USE_DEFAULT_USER_CFG
 

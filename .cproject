@@ -73,7 +73,7 @@
 									<listOptionValue builtIn="false" value="ICALL_STACK0_ADDR=0xf001"/>
 									<listOptionValue builtIn="false" value="ICALL_STACK0_START=0xf000"/>
 									<listOptionValue builtIn="false" value="ICALL_RAM0_START=0x20004348"/>
-									<listOptionValue builtIn="false" value="CC2650DK_7ID"/>
+									<listOptionValue builtIn="false" value="CC2650EM_7ID"/>
 									<listOptionValue builtIn="false" value="CC26XX"/>
 									<listOptionValue builtIn="false" value="BOARD_DISPLAY_EXCLUDE_UART"/>
 									<listOptionValue builtIn="false" value="HEAPMGR_SIZE=0"/>
