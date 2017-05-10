@@ -4,6 +4,7 @@ Debug
 
 # IDE settings directory
 .settings
+.launches
 
 # RTSC generated files
 tools/rtsc/src
