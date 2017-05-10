@@ -18,11 +18,34 @@ The files in this repo are actual files in your file system, not links that poin
 
 ## How to customize this example
 
+* Edit `targetConfigs/CC2650F128.ccxml` to select the correct device you use (eg. CC2640)
 * Edit the `Board.h` and `board.c` files according to your own project
 * Edit the `main.c` and `simple_peripheral.h` / `simple_peripheral.c`
 * Change `ble-user-config.h` to match your desires
 * Decide which TI profiles you need and add / remove TI's profiles to / from `ble-stack/profiles`
 * Create your own profiles, etc.
+
+## How to flash
+
+You can use Uniflash (which is cross-platform) or SmartRF (which seems to be Windows-only).
+
+Flash the stack project first (this example works with `simple_peripheral_cc2650em_stack`), then this example project.  
+You can also create a custom stack project similarly to the description on how to create this example, but that is out of scope for us for now.
+
+## Troubleshooting
+
+When you use the CC2640 and receive something like this:
+
+```
+Error connecting to the target:
+(Error -241 @ 0x0)
+A router subpath could not be accessed.
+A security error has probably occurred.
+Make sure your device is unlocked.
+(Emulation package 6.0.628.1)
+```
+
+Open `targetConfigs/CC2650F128.ccxml` and change the target device from CC2650 to CC2640.
 
 ## How to reproduce this example project
 
