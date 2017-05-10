@@ -34,7 +34,9 @@ You can also create a custom stack project similarly to the description on how t
 
 ## Troubleshooting
 
-When you use the CC2640 and receive something like this:
+### A router subpath could not be accessed.
+
+When you receive something like this:
 
 ```
 Error connecting to the target:
@@ -45,7 +47,12 @@ Make sure your device is unlocked.
 (Emulation package 6.0.628.1)
 ```
 
-Open `targetConfigs/CC2650F128.ccxml` and change the target device from CC2650 to CC2640.
+Open `targetConfigs/CC2650F128.ccxml` and: 
+
+* See [this E2E post](https://e2e.ti.com/support/development_tools/code_composer_studio/f/81/p/444512/1959882#1959882)
+* Change the target device to match the actual device you use (eg. from CC2650 to CC2640).
+* Go to Advanced Setup -> Target configuration and set the correct connection mode (eg. 4-wire standard JTAG)
+* etc.
 
 ## How to reproduce this example project
 
